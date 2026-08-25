@@ -1,0 +1,223 @@
+/* Basalt for Obsidian */
+
+.theme-dark,
+.theme-light {
+  color-scheme: dark;
+
+  --color-red-rgb: 184, 125, 110;
+  --color-red: #b87d6e;
+  --color-orange-rgb: 193, 128, 101;
+  --color-orange: #c18065;
+  --color-yellow-rgb: 206, 179, 112;
+  --color-yellow: #ceb370;
+  --color-green-rgb: 161, 197, 146;
+  --color-green: #a1c592;
+  --color-cyan-rgb: 143, 179, 173;
+  --color-cyan: #8fb3ad;
+  --color-blue-rgb: 136, 146, 181;
+  --color-blue: #8892b5;
+  --color-purple-rgb: 163, 143, 181;
+  --color-purple: #a38fb5;
+  --color-pink-rgb: 201, 146, 132;
+  --color-pink: #c99284;
+
+  --color-base-00: #0d0e10;
+  --color-base-05: #111215;
+  --color-base-10: #161718;
+  --color-base-20: #1a1b1d;
+  --color-base-25: #191a1d;
+  --color-base-30: #323337;
+  --color-base-35: #323337;
+  --color-base-40: #3a3b3c;
+  --color-base-50: #51545e;
+  --color-base-60: #6f727f;
+  --color-base-70: #abaeb7;
+  --color-base-100: #ededed;
+
+  --background-primary: #111215;
+  --background-primary-alt: #161718;
+  --background-secondary: #0d0e10;
+  --background-secondary-alt: #111215;
+  --background-modifier-hover: rgba(255, 255, 255, 0.04);
+  --background-modifier-active-hover: rgba(255, 255, 255, 0.06);
+  --background-modifier-border: #191a1d;
+  --background-modifier-border-hover: #323337;
+  --background-modifier-border-focus: #c18065;
+  --background-modifier-form-field: #161718;
+  --background-modifier-form-field-highlighted: #1a1b1d;
+  --basalt-control-outline: #6f727f;
+  --background-modifier-error: rgba(184, 125, 110, 0.18);
+  --background-modifier-success: rgba(161, 197, 146, 0.18);
+  --background-modifier-message: #161718;
+  --background-modifier-box-shadow: transparent;
+  --background-modifier-cover: rgba(13, 14, 16, 0.85);
+
+  --text-normal: #cdd0d7;
+  --text-muted: #6f727f;
+  --text-faint: #51545e;
+  --text-on-accent: #111215;
+  --text-on-accent-inverted: #ededed;
+  --text-error: #b87d6e;
+  --text-success: #a1c592;
+  --text-warning: #ceb370;
+  --text-accent: #8892b5;
+  --text-accent-hover: #8fb3ad;
+  --text-selection: rgba(193, 128, 101, 0.25);
+  --text-highlight-bg: rgba(206, 179, 112, 0.22);
+  --text-highlight-fg: #ededed;
+
+  --accent-h: 18;
+  --accent-s: 43%;
+  --accent-l: 58%;
+  --color-accent: #c18065;
+  --color-accent-1: #b87d6e;
+  --color-accent-2: #c99284;
+  --interactive-accent: #c18065;
+  --interactive-accent-hover: #c99284;
+  --interactive-accent-hsl: 18, 43%, 58%;
+  --interactive-accent-rgb: 193, 128, 101;
+  --interactive-normal: #161718;
+  --interactive-hover: #1a1b1d;
+
+  --titlebar-background: #0d0e10;
+  --titlebar-background-focused: #0d0e10;
+  --tab-container-background: #111215;
+  --tab-outline-color: #191a1d;
+  --divider-color: #191a1d;
+  --divider-color-hover: #c18065;
+
+  --icon-color: #adadae;
+  --icon-color-hover: #ededed;
+  --icon-color-active: #c18065;
+  --icon-color-focused: #c18065;
+
+  --nav-item-color: #adadae;
+  --nav-item-color-hover: #ededed;
+  --nav-item-color-active: #ededed;
+  --nav-item-color-selected: #ededed;
+  --nav-item-background-hover: rgba(255, 255, 255, 0.04);
+  --nav-item-background-active: #1a1b1d;
+  --nav-item-background-selected: #1a1b1d;
+  --nav-item-border-color: transparent;
+  --nav-item-border-color-hover: transparent;
+  --nav-item-border-color-active: #c18065;
+
+  --link-color: #8892b5;
+  --link-color-hover: #8fb3ad;
+  --link-unresolved-color: #adadae;
+  --link-unresolved-opacity: 1;
+  --link-external-color: #8892b5;
+  --link-external-color-hover: #8fb3ad;
+
+  --h1-color: #ceb370;
+  --h2-color: #ceb370;
+  --h3-color: #ceb370;
+  --h4-color: #cdd0d7;
+  --h5-color: #abaeb7;
+  --h6-color: #6f727f;
+  --bold-color: #ededed;
+  --italic-color: #abaeb7;
+
+  --tag-color: #a1c592;
+  --tag-color-hover: #111215;
+  --tag-background: rgba(161, 197, 146, 0.1);
+  --tag-background-hover: #a1c592;
+  --tag-border-color: rgba(161, 197, 146, 0.25);
+  --tag-border-color-hover: #a1c592;
+
+  --blockquote-border-color: #c18065;
+  --blockquote-color: #abaeb7;
+  --callout-info: 143, 179, 173;
+  --callout-tip: 161, 197, 146;
+  --callout-success: 161, 197, 146;
+  --callout-warning: 206, 179, 112;
+  --callout-error: 184, 125, 110;
+  --callout-radius: 0;
+  --hr-color: #323337;
+  --list-marker-color: #c18065;
+  --list-marker-color-hover: #c99284;
+  --list-marker-color-collapsed: #6f727f;
+
+  --checkbox-color: #a1c592;
+  --checkbox-color-hover: #b3d1a4;
+  --checkbox-border-color: #6f727f;
+  --checkbox-border-color-hover: #a1c592;
+  --checklist-done-color: #6f727f;
+
+  --code-normal: #cdd0d7;
+  --code-comment: #adadae;
+  --code-function: #ceb370;
+  --code-important: #b87d6e;
+  --code-keyword: #c18065;
+  --code-operator: #abaeb7;
+  --code-property: #8892b5;
+  --code-punctuation: #abaeb7;
+  --code-string: #a1c592;
+  --code-tag: #8fb3ad;
+  --code-value: #c99284;
+  --code-background: #161718;
+
+  --table-border-color: #323337;
+  --table-header-background: #161718;
+  --table-header-background-hover: #1a1b1d;
+  --table-row-background-hover: rgba(255, 255, 255, 0.04);
+
+  --canvas-background: #111215;
+  --canvas-card-label-color: #abaeb7;
+  --canvas-color-1: 184, 125, 110;
+  --canvas-color-2: 193, 128, 101;
+  --canvas-color-3: 206, 179, 112;
+  --canvas-color-4: 161, 197, 146;
+  --canvas-color-5: 143, 179, 173;
+  --canvas-color-6: 163, 143, 181;
+
+  --graph-line: #323337;
+  --graph-node: #8892b5;
+  --graph-node-focused: #c18065;
+  --graph-node-tag: #a1c592;
+  --graph-node-attachment: #a38fb5;
+  --graph-node-unresolved: #51545e;
+
+  --font-interface-theme: "SFMono-Regular", "SF Mono", ui-monospace, monospace;
+  --font-text-theme: "SFMono-Regular", "SF Mono", ui-monospace, monospace;
+  --font-monospace-theme: "SFMono-Regular", "SF Mono", ui-monospace, monospace;
+  --font-monospace: "SFMono-Regular", "SF Mono", ui-monospace, monospace;
+
+  --radius-s: 0;
+  --radius-m: 0;
+  --radius-l: 0;
+  --input-shadow: none;
+  --input-shadow-hover: none;
+  --shadow-s: none;
+  --shadow-l: none;
+}
+
+.workspace-tab-header.is-active,
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  box-shadow: inset 2px 0 var(--interactive-accent);
+}
+
+.markdown-rendered pre {
+  border: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered blockquote {
+  border-inline-start-width: 2px;
+}
+
+input,
+textarea,
+select,
+.dropdown {
+  border-color: var(--basalt-control-outline);
+  box-shadow: none;
+}
+
+.modal,
+.menu,
+.suggestion-container,
+.popover {
+  border: 1px solid var(--basalt-control-outline);
+  box-shadow: none;
+}
