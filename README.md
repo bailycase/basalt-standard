@@ -26,3 +26,9 @@ Install it manually:
 3. In Obsidian, open **Settings → Appearance → Themes** and select **Basalt**.
 
 The Obsidian port follows Obsidian's dark or light appearance automatically.
+
+### Neovim
+
+The Neovim port lives in [`ports/neovim`](ports/neovim). It uses Neovim's native `background` option for both variants and can follow Shepherd appearance changes through a small file watcher.
+
+See [`ports/neovim/README.md`](ports/neovim/README.md) for installation and Shepherd sync.
